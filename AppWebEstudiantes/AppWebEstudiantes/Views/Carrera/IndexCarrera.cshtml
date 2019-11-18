@@ -1,0 +1,58 @@
+﻿
+@{
+    ViewData["Title"] = "IndexCarrera";
+}
+@model  List<Carrera>
+
+<head>
+    <div class="text-center">
+        <h1 class="display-4">Carreras</h1>
+        <br />
+    </div>
+
+    <div class="row text-center">
+        <form action="~/Carrera/InsertarCarrera" method="post">
+            <table border="0" class=" table table-borderless">
+                <tr>
+                    <th>Carrera</th>
+                    <th>Clave</th>
+                    <th>Accion</th>
+                </tr>
+                <tr>
+                    <td><input type="text" name="nombreCarrera" required /></td>
+                    <td><input type="text" name="clave" required /></td>
+                    <td><input type="submit" class="btn btn-outline-success btn-sm" value="Insertar" /></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</head>
+
+
+
+<div class="row text-center">
+    <table class=" table table-bordered">
+        <thead class="thead-dark">
+            <tr>
+                <th>Clave</th>
+                <th>Carrera</th>
+                <th>Accion</th>
+            </tr>
+        </thead>
+        <tbody id="tbody-carreras">
+            @foreach (var i in Model)
+            {
+                <tr>
+                    <td>@i.claveCarrera</td>
+                    <td>@i.nombreCarrera</td>
+                    <td>
+                        @*<a href="~/Carrera/CarreraEliminar?clave=@i.claveCarrera" class="btn btn-danger btn-lg" i">Eliminar</a>*@
+                        <button class="btn btn-danger btn-lg" data-carrera="@i.claveCarrera" id="boton-eliminar">Eliminar</button>
+                        @*<a href="~/Home/actualizarCarrera?guid=@i.GUIDcarrera" class="btn btn-outline-secondary btn-lg">Actualizar</a>*@
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <div id="iddiv"></div>
+

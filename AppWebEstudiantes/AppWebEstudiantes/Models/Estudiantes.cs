@@ -7,5 +7,6 @@ namespace AppWebEstudiantes.Models
 {
     public class Estudiantes
     {
+
     }
 }
