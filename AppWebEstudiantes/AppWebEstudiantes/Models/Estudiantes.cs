@@ -16,6 +16,7 @@ namespace AppWebEstudiantes.Models
         public string   correo          { get; set; }
         public int      telefono        { get; set; }
         public int      celular         { get; set; }
-        public Guid     GUIDCarrera     { get; set; }
+        public Guid     GUIDCarrera     { get; set; }  
+        public string nombreCarrera     { get; set; }
     }
 }

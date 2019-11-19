@@ -5,10 +5,48 @@
 @model List<Estudiantes>
 
 <h1>Estudiantes</h1>
+<pre>
 
 
 
+</pre>
 
+<head>
+    <div class="row text-left">
+        <form action="~/Estudiantes/InsertarEstudiante" method="post">
+            <pre>Nombre:            <th><input type="text" name="nombre" required /></th></pre>
+            <pre>Apellido Paterno:  <th><input type="text" name="aPaterno" required /></th></pre>
+            <pre>Apellido Materno:  <th><input type="text" name="aMaterno" required /></th></pre>
+            <pre>Promedio:          <th><input type="number" name="promedio" required /></th></pre>
+            <pre>Cuatrimestre:      <select name="cuatrimestre">
+            <option value="1"> 1.  Cuatrimestre</option>
+            <option value="2"> 2.  Cuatrimestre</option>
+            <option value="3"> 3.  Cuatrimestre</option>
+            <option value="4"> 4.  Cuatrimestre</option>
+            <option value="5"> 5.  Cuatrimestre</option>
+            <option value="6"> 6.  Cuatrimestre</option>
+            <option value="7"> 7.  Cuatrimestre</option>
+            <option value="8"> 8.  Cuatrimestre</option>
+            <option value="9"> 9.  Cuatrimestre</option>
+            <option value="10">10. Cuatrimestre</option>
+            <option value="11">11. Cuatrimestre</option>
+            <option value="12">12. Cuatrimestre</option>
+                </select></pre>
+            @*<pre>Correo:            <th><input type="email" name="correo" required /></th></pre>
+        <pre>Telefono Fijo:     <th><input type="tel" name="tel" required /></th></pre>
+        <pre>Celular:           <th><input type="tel" name="cel" required /></th></pre>
+        <pre>GUIDCarrera:       <th><input type="text" name="GUIDCarrera" required /></th></pre>*@
+            <pre>Carrera:           <select name="GUIDCarrera">
+            @foreach (var p in Model)
+            {
+                <option value="@p.GUIDCarrera"> @p.nombreCarrera</option>
+            }
+                </select></pre>
+            <pre></pre>
+            <pre><th><input type="submit" class="btn btn-success" value="Agregar" /></th></pre>
+        </form>
+    </div>
+</head>
 
 
 <div class="row text-center">
@@ -37,7 +75,7 @@
                 <td>
                     @*<a href="~/Carrera/CarreraEliminar?clave=@i.claveCarrera" class="btn btn-danger btn-lg" i">Eliminar</a>*@
                     @*<button class="btn btn-danger btn-lg" data-carrera="@i.claveCarrera" id="boton-eliminar">Eliminar</button>
-                    <a href="~/Carrera/IndexActualizarCarrera?guid=@i.GUIDCarrera" class="btn btn-outline-secondary btn-lg">Actualizar</a>*@
+            <a href="~/Carrera/IndexActualizarCarrera?guid=@i.GUIDCarrera" class="btn btn-outline-secondary btn-lg">Actualizar</a>*@
                 </td>
             </tr>
             }
