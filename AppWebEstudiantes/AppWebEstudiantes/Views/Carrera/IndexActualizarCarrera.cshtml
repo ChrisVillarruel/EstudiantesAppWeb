@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewData["Title"] = "IndexActualizarCarrera";
+}
+
+@model  List<Carrera>
+
+<hr />
+<h1 class="row text-center">Actualizar Carrera</h1>
+<hr />
+<div class="row text-center">
+    <form action="~/Carrera/Actualizar" method="post">
+        <table border="0" class=" table table-borderless">
+            <tr>
+                <th>Carrera</th>
+                <th>Clave de la Carrera</th>
+            </tr>
+            <tr>
+                @foreach (var i in Model)
+                {
+                    <td><input type="text" name="nombreActualizado" value="@i.nombreCarrera" required /></td>
+                    <td><input type="text" name="claveCarrera" value="@i.claveCarrera" /></td>
+                    <td><button href="~/Carrera/Actualizar?nombreActualizado=@i.nombreCarrera&claveCarrera=@i.claveCarrera" class="btn btn-outline-secondary btn-sm">Actualizar</button></td>
+                }
+            </tr>
+        </table>
+    </form>
+</div>
+<hr />
+<h2 class="row text-center">Informacion de la Carrera</h2>
+<div class="row text-center">
+    <table class=" table table-bordered">
+        <tr>
+            <th>Clave</th>
+            <th>Carrera</th>
+        </tr>
+        <tr>
+            @foreach (var i in Model)
+            {
+                <td>@i.claveCarrera</td>
+                <td>@i.nombreCarrera</td>
+            }
+        </tr>
+    </table>
+</div>
+
+

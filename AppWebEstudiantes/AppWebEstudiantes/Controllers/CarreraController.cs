@@ -92,5 +92,58 @@ namespace AppWebEstudiantes.Controllers
 
             return row;
         }
+        public IActionResult IndexActualizarCarrera(Guid guid)
+        {
+            List<Carrera> lista = new List<Carrera>();
+            string queryConsulta = "select [claveC], [nombreCarrera], [GUIDCarrera] from [Carreras] where [GUIDCarrera] = @guid";
+            SqlConnection con = new SqlConnection(Conexion);
+            SqlCommand sqlConsulta = new SqlCommand(queryConsulta, con);
+            try
+            {
+                con.Open();
+                sqlConsulta.Parameters.AddWithValue("@guid", guid);
+                SqlDataReader rd = sqlConsulta.ExecuteReader();
+                while (rd.Read())
+                {
+                    lista.Add(new Carrera
+                    {
+                        nombreCarrera = (string)rd["nombreCarrera"],
+                        claveCarrera = (string)rd["claveC"]
+                    });
+                }
+                con.Close();
+            }
+            catch (SqlException e)
+            {
+                throw new Exception(e.Message);
+            }
+
+            return View(lista);
+        }
+        public IActionResult Actualizar(string nombreActualizado, string claveCarrera)
+        {
+
+            int row = 0;
+            string queryUpdate = "UPDATE [Carreras] SET [nombreCarrera] = @nombreActualizado where [claveC] = @claveCarrera";
+            SqlConnection con = new SqlConnection(Conexion);
+            SqlCommand sqlUpdate = new SqlCommand(queryUpdate, con);
+            try
+            {
+                con.Open();
+                sqlUpdate.Parameters.AddWithValue("@nombreActualizado", nombreActualizado);
+                sqlUpdate.Parameters.AddWithValue("@claveCarrera", claveCarrera);
+                row = sqlUpdate.ExecuteNonQuery();
+                return RedirectToAction("IndexCarrera");
+            }
+            catch (SqlException e)
+            {
+                throw new Exception(e.Message);
+            }
+            finally
+            {
+                con.Close();
+            }
+
+        }
     }
 }
