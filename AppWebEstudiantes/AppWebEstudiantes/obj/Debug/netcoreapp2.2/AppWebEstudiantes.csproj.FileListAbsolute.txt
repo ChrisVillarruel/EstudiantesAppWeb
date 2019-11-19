@@ -32,3 +32,4 @@ C:\Users\claud\Desktop\EstudiantesAppWeb\AppWebEstudiantes\AppWebEstudiantes\obj
 C:\Users\claud\Desktop\EstudiantesAppWeb\AppWebEstudiantes\AppWebEstudiantes\obj\Debug\netcoreapp2.2\AppWebEstudiantes.csproj.CopyComplete
 C:\Users\claud\Desktop\EstudiantesAppWeb\AppWebEstudiantes\AppWebEstudiantes\obj\Debug\netcoreapp2.2\Razor\Views\Carrera\IndexCarrera.cshtml.g.cs
 C:\Users\claud\Desktop\EstudiantesAppWeb\AppWebEstudiantes\AppWebEstudiantes\obj\Debug\netcoreapp2.2\Razor\Views\Carrera\IndexActualizarCarrera.cshtml.g.cs
+C:\Users\claud\Desktop\EstudiantesAppWeb\AppWebEstudiantes\AppWebEstudiantes\obj\Debug\netcoreapp2.2\Razor\Views\Estudiantes\IndexEstudiantes.cshtml.g.cs

@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewData["Title"] = "IndexEstudiantes";
+}
+@model List<Estudiantes>
+
+<h1>Estudiantes</h1>
+
+
+
+
+
+
+<div class="row text-center">
+    <table class=" table table-bordered">
+        <thead class="thead-dark">
+            <tr>
+                <th>#</th>
+                <th>Nombre</th>
+                <th>Apellido Paterno</th>
+                <th>Apellido Materno</th>
+                <th>Promedio</th>
+                <th>Cuatrimestre</th>
+                <th>Accion</th>
+            </tr>
+        </thead>
+        <tbody id="tbody-carreras">
+            @foreach (var i in Model)
+            {
+            <tr>
+                <td>@i.IDEstudiante</td>
+                <td>@i.Nombre</td>
+                <td>@i.apellidoPaterno</td>
+                <td>@i.apellidoMaterno</td>
+                <td>@i.promedio</td>
+                <td>@i.cuatrimestre</td>
+                <td>
+                    @*<a href="~/Carrera/CarreraEliminar?clave=@i.claveCarrera" class="btn btn-danger btn-lg" i">Eliminar</a>*@
+                    @*<button class="btn btn-danger btn-lg" data-carrera="@i.claveCarrera" id="boton-eliminar">Eliminar</button>
+                    <a href="~/Carrera/IndexActualizarCarrera?guid=@i.GUIDCarrera" class="btn btn-outline-secondary btn-lg">Actualizar</a>*@
+                </td>
+            </tr>
+            }
+        </tbody>
+    </table>
+</div>
+

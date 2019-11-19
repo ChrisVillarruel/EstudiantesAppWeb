@@ -7,6 +7,15 @@ namespace AppWebEstudiantes.Models
 {
     public class Estudiantes
     {
-
+        public Guid     IDEstudiante    { get; set; }
+        public string   Nombre          { get; set; }
+        public string   apellidoPaterno { get; set; }
+        public string   apellidoMaterno { get; set; }
+        public float    promedio        { get; set; }
+        public int      cuatrimestre    { get; set; }
+        public string   correo          { get; set; }
+        public int      telefono        { get; set; }
+        public int      celular         { get; set; }
+        public Guid     GUIDCarrera     { get; set; }
     }
 }
