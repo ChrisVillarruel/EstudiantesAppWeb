@@ -1,0 +1,45 @@
+﻿
+@{
+    ViewData["Title"] = "IndexActualizarEstudiante";
+}
+@model List<Estudiantes>
+
+<h1>Actualizar Estudiante</h1>
+<pre>
+
+
+</pre>
+<div class="row text-left">
+    @foreach (var i in Model)
+    {
+    <form action="~/Estudiantes/Actualizar" method="post">
+        <pre>Nombre:            <th><input type="text" name="nombre" required value="@i.Nombre" /></th></pre>
+        <pre>Apellido Paterno:  <th><input type="text" name="aPaterno" required value="@i.apellidoPaterno" /></th></pre>
+        <pre>Apellido Materno:  <th><input type="text" name="aMaterno" required value="@i.apellidoMaterno" /></th></pre>
+        <pre>Promedio:          <th><input type="text" name="promedio" required value="@i.promedio" /></th></pre>
+        <pre>Cuatrimestre:      <select name="cuatrimestre">
+        <option value="1"> 1.  Cuatrimestre</option>
+        <option value="2"> 2.  Cuatrimestre</option>
+        <option value="3"> 3.  Cuatrimestre</option>
+        <option value="4"> 4.  Cuatrimestre</option>
+        <option value="5"> 5.  Cuatrimestre</option>
+        <option value="6"> 6.  Cuatrimestre</option>
+        <option value="7"> 7.  Cuatrimestre</option>
+        <option value="8"> 8.  Cuatrimestre</option>
+        <option value="9"> 9.  Cuatrimestre</option>
+        <option value="10">10. Cuatrimestre</option>
+        <option value="11">11. Cuatrimestre</option>
+        <option value="12">12. Cuatrimestre</option>
+                    </select></pre>
+        <pre>Correo:            <th><input type="email" name="correo" required value="@i.correo" /></th></pre>
+        <pre>Telefono Fijo:     <th><input type="tel" name="tel" required value="@i.telefono" /></th></pre>
+        <pre>Celular:           <th><input type="tel" name="cel" required value="@i.celular" /></th></pre>
+        <pre>Carrera:           <select name="GUIDCarrera">
+        <option value="@i.GUIDCarrera"> @i.nombreCarrera</option>
+        </select></pre>
+        <pre><button href="~/Estudiantes/Actualizar?nombre=@i.Nombre&aPaterno=@i.apellidoPaterno&aMaterno=@i.apellidoMaterno&promedio=@i.promedio&
+                     cuatrimestre=@i.cuatrimestre&correo=@i.correo&tel=@i.telefono&cel=@i.celular&GUIDCarrera=@i.GUIDCarrera&idEstudiante=@i.IDEstudiante" 
+                     class="btn btn-outline-secondary btn-sm">Actualizar</button>
+    </form>
+    }
+</div>

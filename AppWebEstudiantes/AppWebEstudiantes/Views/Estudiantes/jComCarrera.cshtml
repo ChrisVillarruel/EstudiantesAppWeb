@@ -1,0 +1,51 @@
+﻿
+@{
+    ViewData["Title"] = "Nuevo";
+}
+@model  List<Estudiantes>
+
+
+<div class="row text-center">
+    <h1>Insertar Alumno</h1>
+</div>
+
+<pre>
+
+
+</pre>
+
+<head>
+    <div class="row text-left">
+        <form action="~/Estudiantes/InsertarEstudiante" method="post">
+            <pre>Nombre:            <th><input type="text" name="nombre" required /></th></pre>
+            <pre>Apellido Paterno:  <th><input type="text" name="aPaterno" required /></th></pre>
+            <pre>Apellido Materno:  <th><input type="text" name="aMaterno" required /></th></pre>
+            <pre>Promedio:          <th><input type="text" name="promedio" required /></th></pre>
+            <pre>Cuatrimestre:      <select name="cuatrimestre">
+            <option value="1"> 1.  Cuatrimestre</option>
+            <option value="2"> 2.  Cuatrimestre</option>
+            <option value="3"> 3.  Cuatrimestre</option>
+            <option value="4"> 4.  Cuatrimestre</option>
+            <option value="5"> 5.  Cuatrimestre</option>
+            <option value="6"> 6.  Cuatrimestre</option>
+            <option value="7"> 7.  Cuatrimestre</option>
+            <option value="8"> 8.  Cuatrimestre</option>
+            <option value="9"> 9.  Cuatrimestre</option>
+            <option value="10">10. Cuatrimestre</option>
+            <option value="11">11. Cuatrimestre</option>
+            <option value="12">12. Cuatrimestre</option>
+                </select></pre>
+            <pre>Correo:            <th><input type="email" name="correo" required /></th></pre>
+            <pre>Telefono Fijo:     <th><input type="tel" name="tel" required /></th></pre>
+            <pre>Celular:           <th><input type="tel" name="cel" required /></th></pre>
+            <pre>Carrera:           <select name="GUIDCarrera">
+            @foreach (var i in Model)
+            {
+            <option value="@i.GUIDCarrera"> @i.nombreCarrera</option>
+            }
+            </select></pre>
+            <pre></pre>
+            <pre><th><input type="submit" class="btn btn-success" value="Agregar" /></th></pre>
+        </form>
+    </div>
+</head>

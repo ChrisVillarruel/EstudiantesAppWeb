@@ -15,7 +15,7 @@ namespace AppWebEstudiantes.Models
         public int      cuatrimestre    { get; set; }
         public string   correo          { get; set; }
         public int      telefono        { get; set; }
-        public int      celular         { get; set; }
+        public Int64     celular         { get; set; }
         public Guid     GUIDCarrera     { get; set; }  
         public string nombreCarrera     { get; set; }
     }
