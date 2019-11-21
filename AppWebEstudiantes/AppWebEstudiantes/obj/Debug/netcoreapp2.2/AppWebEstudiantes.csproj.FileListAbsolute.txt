@@ -32,3 +32,37 @@ C:\Users\claud\Desktop\EstudiantesAppWeb\AppWebEstudiantes\AppWebEstudiantes\obj
 C:\Users\claud\Desktop\EstudiantesAppWeb\AppWebEstudiantes\AppWebEstudiantes\obj\Debug\netcoreapp2.2\AppWebEstudiantes.csproj.CopyComplete
 C:\Users\claud\Desktop\EstudiantesAppWeb\AppWebEstudiantes\AppWebEstudiantes\obj\Debug\netcoreapp2.2\Razor\Views\Carrera\IndexCarrera.cshtml.g.cs
 C:\Users\claud\Desktop\EstudiantesAppWeb\AppWebEstudiantes\AppWebEstudiantes\obj\Debug\netcoreapp2.2\Razor\Views\Carrera\IndexActualizarCarrera.cshtml.g.cs
+C:\Users\Cruz Badillo\Documents\proyectos\gil\EstudiantesAppWeb\AppWebEstudiantes\AppWebEstudiantes\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\Cruz Badillo\Documents\proyectos\gil\EstudiantesAppWeb\AppWebEstudiantes\AppWebEstudiantes\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\Cruz Badillo\Documents\proyectos\gil\EstudiantesAppWeb\AppWebEstudiantes\AppWebEstudiantes\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\Cruz Badillo\Documents\proyectos\gil\EstudiantesAppWeb\AppWebEstudiantes\AppWebEstudiantes\bin\Debug\netcoreapp2.2\AppWebEstudiantes.deps.json
+C:\Users\Cruz Badillo\Documents\proyectos\gil\EstudiantesAppWeb\AppWebEstudiantes\AppWebEstudiantes\bin\Debug\netcoreapp2.2\AppWebEstudiantes.runtimeconfig.json
+C:\Users\Cruz Badillo\Documents\proyectos\gil\EstudiantesAppWeb\AppWebEstudiantes\AppWebEstudiantes\bin\Debug\netcoreapp2.2\AppWebEstudiantes.runtimeconfig.dev.json
+C:\Users\Cruz Badillo\Documents\proyectos\gil\EstudiantesAppWeb\AppWebEstudiantes\AppWebEstudiantes\bin\Debug\netcoreapp2.2\AppWebEstudiantes.dll
+C:\Users\Cruz Badillo\Documents\proyectos\gil\EstudiantesAppWeb\AppWebEstudiantes\AppWebEstudiantes\bin\Debug\netcoreapp2.2\AppWebEstudiantes.pdb
+C:\Users\Cruz Badillo\Documents\proyectos\gil\EstudiantesAppWeb\AppWebEstudiantes\AppWebEstudiantes\bin\Debug\netcoreapp2.2\AppWebEstudiantes.Views.dll
+C:\Users\Cruz Badillo\Documents\proyectos\gil\EstudiantesAppWeb\AppWebEstudiantes\AppWebEstudiantes\bin\Debug\netcoreapp2.2\AppWebEstudiantes.Views.pdb
+C:\Users\Cruz Badillo\Documents\proyectos\gil\EstudiantesAppWeb\AppWebEstudiantes\AppWebEstudiantes\obj\Debug\netcoreapp2.2\AppWebEstudiantes.csprojAssemblyReference.cache
+C:\Users\Cruz Badillo\Documents\proyectos\gil\EstudiantesAppWeb\AppWebEstudiantes\AppWebEstudiantes\obj\Debug\netcoreapp2.2\AppWebEstudiantes.RazorAssemblyInfo.cache
+C:\Users\Cruz Badillo\Documents\proyectos\gil\EstudiantesAppWeb\AppWebEstudiantes\AppWebEstudiantes\obj\Debug\netcoreapp2.2\AppWebEstudiantes.RazorAssemblyInfo.cs
+C:\Users\Cruz Badillo\Documents\proyectos\gil\EstudiantesAppWeb\AppWebEstudiantes\AppWebEstudiantes\obj\Debug\netcoreapp2.2\AppWebEstudiantes.AssemblyInfoInputs.cache
+C:\Users\Cruz Badillo\Documents\proyectos\gil\EstudiantesAppWeb\AppWebEstudiantes\AppWebEstudiantes\obj\Debug\netcoreapp2.2\AppWebEstudiantes.AssemblyInfo.cs
+C:\Users\Cruz Badillo\Documents\proyectos\gil\EstudiantesAppWeb\AppWebEstudiantes\AppWebEstudiantes\obj\Debug\netcoreapp2.2\AppWebEstudiantes.TagHelpers.input.cache
+C:\Users\Cruz Badillo\Documents\proyectos\gil\EstudiantesAppWeb\AppWebEstudiantes\AppWebEstudiantes\obj\Debug\netcoreapp2.2\AppWebEstudiantes.TagHelpers.output.cache
+C:\Users\Cruz Badillo\Documents\proyectos\gil\EstudiantesAppWeb\AppWebEstudiantes\AppWebEstudiantes\obj\Debug\netcoreapp2.2\AppWebEstudiantes.RazorCoreGenerate.cache
+C:\Users\Cruz Badillo\Documents\proyectos\gil\EstudiantesAppWeb\AppWebEstudiantes\AppWebEstudiantes\obj\Debug\netcoreapp2.2\Razor\Views\Carrera\IndexActualizarCarrera.cshtml.g.cs
+C:\Users\Cruz Badillo\Documents\proyectos\gil\EstudiantesAppWeb\AppWebEstudiantes\AppWebEstudiantes\obj\Debug\netcoreapp2.2\Razor\Views\Carrera\IndexCarrera.cshtml.g.cs
+C:\Users\Cruz Badillo\Documents\proyectos\gil\EstudiantesAppWeb\AppWebEstudiantes\AppWebEstudiantes\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Cruz Badillo\Documents\proyectos\gil\EstudiantesAppWeb\AppWebEstudiantes\AppWebEstudiantes\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Cruz Badillo\Documents\proyectos\gil\EstudiantesAppWeb\AppWebEstudiantes\AppWebEstudiantes\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Cruz Badillo\Documents\proyectos\gil\EstudiantesAppWeb\AppWebEstudiantes\AppWebEstudiantes\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\Cruz Badillo\Documents\proyectos\gil\EstudiantesAppWeb\AppWebEstudiantes\AppWebEstudiantes\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Cruz Badillo\Documents\proyectos\gil\EstudiantesAppWeb\AppWebEstudiantes\AppWebEstudiantes\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Cruz Badillo\Documents\proyectos\gil\EstudiantesAppWeb\AppWebEstudiantes\AppWebEstudiantes\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Cruz Badillo\Documents\proyectos\gil\EstudiantesAppWeb\AppWebEstudiantes\AppWebEstudiantes\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Cruz Badillo\Documents\proyectos\gil\EstudiantesAppWeb\AppWebEstudiantes\AppWebEstudiantes\obj\Debug\netcoreapp2.2\AppWebEstudiantes.RazorTargetAssemblyInfo.cache
+C:\Users\Cruz Badillo\Documents\proyectos\gil\EstudiantesAppWeb\AppWebEstudiantes\AppWebEstudiantes\obj\Debug\netcoreapp2.2\AppWebEstudiantes.RazorTargetAssemblyInfo.cs
+C:\Users\Cruz Badillo\Documents\proyectos\gil\EstudiantesAppWeb\AppWebEstudiantes\AppWebEstudiantes\obj\Debug\netcoreapp2.2\AppWebEstudiantes.Views.pdb
+C:\Users\Cruz Badillo\Documents\proyectos\gil\EstudiantesAppWeb\AppWebEstudiantes\AppWebEstudiantes\obj\Debug\netcoreapp2.2\AppWebEstudiantes.dll
+C:\Users\Cruz Badillo\Documents\proyectos\gil\EstudiantesAppWeb\AppWebEstudiantes\AppWebEstudiantes\obj\Debug\netcoreapp2.2\AppWebEstudiantes.pdb
+C:\Users\Cruz Badillo\Documents\proyectos\gil\EstudiantesAppWeb\AppWebEstudiantes\AppWebEstudiantes\obj\Debug\netcoreapp2.2\AppWebEstudiantes.csproj.CopyComplete

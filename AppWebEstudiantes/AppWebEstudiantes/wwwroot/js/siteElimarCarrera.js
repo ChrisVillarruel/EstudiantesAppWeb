@@ -1,5 +1,5 @@
-﻿//@Autor: Juan Manuel Cruz Badillo
-//@Modificado por: Gil Villarruel Christian 
+﻿//@Author: Juan Manuel Cruz Badillo
+//@Modificaded: Gil Villarruel Christian 
 
 // 1- Obtener los elementos con el id boton-eliminar
 
@@ -34,8 +34,8 @@ botones.forEach(boton => {
             request.onreadystatechange = function () {
                 // 10- Evaluar si la petición a la URL se envio y recibio correctamente
                 if (this.readyState == 4 && this.status == 200) {
-                    console.log(this.responseText);
                     rowDelete.removeChild(dataButton);
+                    console.log(this.responseText);
                 }
             };
 

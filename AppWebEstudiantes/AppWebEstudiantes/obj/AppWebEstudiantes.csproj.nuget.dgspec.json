@@ -1,26 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\claud\\Desktop\\EstudiantesAppWeb\\AppWebEstudiantes\\AppWebEstudiantes\\AppWebEstudiantes.csproj": {}
+    "C:\\Users\\Cruz Badillo\\Documents\\proyectos\\gil\\EstudiantesAppWeb\\AppWebEstudiantes\\AppWebEstudiantes\\AppWebEstudiantes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\claud\\Desktop\\EstudiantesAppWeb\\AppWebEstudiantes\\AppWebEstudiantes\\AppWebEstudiantes.csproj": {
+    "C:\\Users\\Cruz Badillo\\Documents\\proyectos\\gil\\EstudiantesAppWeb\\AppWebEstudiantes\\AppWebEstudiantes\\AppWebEstudiantes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\claud\\Desktop\\EstudiantesAppWeb\\AppWebEstudiantes\\AppWebEstudiantes\\AppWebEstudiantes.csproj",
+        "projectUniqueName": "C:\\Users\\Cruz Badillo\\Documents\\proyectos\\gil\\EstudiantesAppWeb\\AppWebEstudiantes\\AppWebEstudiantes\\AppWebEstudiantes.csproj",
         "projectName": "AppWebEstudiantes",
-        "projectPath": "C:\\Users\\claud\\Desktop\\EstudiantesAppWeb\\AppWebEstudiantes\\AppWebEstudiantes\\AppWebEstudiantes.csproj",
-        "packagesPath": "C:\\Users\\claud\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\claud\\Desktop\\EstudiantesAppWeb\\AppWebEstudiantes\\AppWebEstudiantes\\obj\\",
+        "projectPath": "C:\\Users\\Cruz Badillo\\Documents\\proyectos\\gil\\EstudiantesAppWeb\\AppWebEstudiantes\\AppWebEstudiantes\\AppWebEstudiantes.csproj",
+        "packagesPath": "C:\\Users\\Cruz Badillo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Cruz Badillo\\Documents\\proyectos\\gil\\EstudiantesAppWeb\\AppWebEstudiantes\\AppWebEstudiantes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\claud\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Cruz Badillo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
